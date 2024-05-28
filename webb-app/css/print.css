@@ -1,0 +1,24 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #table_facture, #table_facture * {
+        visibility: visible;
+    }
+
+    #facture {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #total_facture, #total_facture * {
+        visibility: visible;
+    }
+    #total_facture {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
